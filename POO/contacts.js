@@ -5,22 +5,24 @@ class contact
     constructor()
     {
         
-        this.contacto1 = [new persona.Person()]
+        this.contacto = [new persona.Person()]
           
            
     }
 
     printPersons()
     {
-    console.log(this.contacto1);
+    console.log(this.contacto);
     }
 }
 
 let Primer_Contacto = new contact();
 
+    // Primer_Contacto.contacto[0].nombre = "alan";             //Asi definimos cada valor de los atributos
+
 Primer_Contacto.printPersons();
 
-
+module.exports.contact = contact; 
 
 
 
