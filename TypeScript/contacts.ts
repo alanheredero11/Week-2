@@ -11,7 +11,10 @@ export class contacts
 
     printCalendar()
     {
-        console.log(this.people);
+        for (let i = 0; i < this.people.length; i++){
+
+            console.log(this.people[i].printAll())
+        }
     }
 }
 

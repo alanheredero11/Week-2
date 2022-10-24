@@ -11,22 +11,6 @@ export class Person
         this.adress = direccion; 
     }
 
-    public getName():string
-    {
-        return this.name;
-    }
-    public setName(name:string)
-    {
-        this.name = name;
-    }
-    public getAge():number
-    {
-        return this.age;
-    }
-    public setAge(age:number)
-    {
-        this.age = age;
-    }
     public getAdress():string
     {
         return this.adress;
@@ -39,6 +23,13 @@ export class Person
     public printName()
     {
         console.log(this.name)
+    }
+
+    public printAll() {
+        console.log(
+            "\n Nombre: " + this.name + 
+            "\n Edad: " + this.age +
+            "\n Dirección: " + this.adress)
     }
 
     public yearOfBirth(currentYear:number):number
