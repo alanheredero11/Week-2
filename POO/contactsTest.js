@@ -11,6 +11,24 @@ Persona1.contacto.push({
     yearOfBityh: 2000
 
 })
+Persona1.contacto.push({
+
+    nombre: "Diego",
+    apellido: "Forlan",
+    altura: 1.75,
+    peso: 80,
+    yearOfBityh: 2000
+
+})
+Persona1.contacto.push({
+
+    nombre: "Alberto",
+    apellido: "Ramires",
+    altura: 1.75,
+    peso: 80,
+    yearOfBityh: 2000
+
+})
 
 
 Persona1.printPersons()
